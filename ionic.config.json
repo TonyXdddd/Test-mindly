@@ -1,0 +1,7 @@
+{
+  "name": "consulting",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
