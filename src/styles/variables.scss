@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+//CUSTOM TEXT COLORS
+$color-text1: #1D201F;
+$color-text2: #5B5B5B;
+$color-text3: #C1C1C1;
+
+//CUSTOM COLORS
+$color1: #ADE5F4;
+$color2: #33BDE4;
+$color3: #EDEFF2;
+$color4: #E5E5E5;
+$color5: #F0FBFF;
+$color6: #33BDE4;
+
+//TYPOGRAPHY
+$font-family: 'Montserrat', sans-serif;
+
+$font-size1: 18px;
+$font-size2: 16px;
+$font-size3: 24px;
+$font-size4: 32px;
+$font-size5: 20px;
+
+$font-weight1: 400;
+$font-weight2: 600;
+$font-weight3: 700;
+
+$line-height1: 24px;
+$line-height2: 32px;
+$line-height3: 40px;
+
+//EXTENDS
+%sectionTitle {
+  font-family: $font-family;
+  font-size: $font-size2;
+  font-weight: $font-weight2;
+  line-height: $line-height1;
+  color: $color-text2;
+}

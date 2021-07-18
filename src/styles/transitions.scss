@@ -1,0 +1,19 @@
+//animation for classes 'react-transition-group'
+@keyframes FadeIn {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+@keyframes FadeOut {
+  0% { opacity: 1 }
+  100% { opacity: 0 }
+}
+
+//animation classes 'react-transition-group'
+.enterActive {
+  animation: FadeIn 2s;
+}
+
+.exitActive {
+  animation: FadeOut 1s;
+}

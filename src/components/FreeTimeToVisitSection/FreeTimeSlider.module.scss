@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.slider {
+  transition: 0.5s;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 87px;
+  height: 32px;
+  line-height: $line-height2;
+  color: $color-text3;
+  font-size: $font-size3;
+}
+
+.textChosen {
+  line-height: $line-height3;
+  font-size: $font-size4;
+  font-weight: $font-weight3;
+  color: $color2;
+  transition: color 0.2s, font-size 0.1s;
+}
+
+.choseDateTipText {
+  display: block;
+  width: 100%;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s;
+
+  position: absolute;
+  text-align: center;
+  color: $color-text3;
+}
+
+.sliderHidden {
+  transform: translateX(100%);
+}
+
+.choseDateTipTextHidden {
+  transform: translateX(-200%);
+}

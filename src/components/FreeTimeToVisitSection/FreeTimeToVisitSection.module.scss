@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.freeTimeToVisitSection {
+  position: relative;
+  min-height: 72px;
+  margin-top: 32px;
+  font-family: $font-family;
+}
+
+.textAndTabs {
+  width: 100%;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  @extend %sectionTitle;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.iconActive {
+  position: relative;
+  top: 2px;
+  width: 23px;
+  height: 23px;
+  padding-right: 12px;
+}
+

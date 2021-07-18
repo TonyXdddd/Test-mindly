@@ -1,0 +1,41 @@
+@import '../../styles/variables';
+
+.slider {
+  margin-top: 18px;
+}
+
+.slide {
+  width: 100%;
+}
+
+.card {
+  width: 86px;
+  height: 92px;
+  margin: 1px;
+}
+
+.selectedCard {
+  background-color: $color5;
+  outline: 1px solid $color1;
+  transition: 0.3s;
+
+  .text,
+  .text div:last-child {
+    color: $color6;
+  }
+}
+
+.text {
+  line-height: $line-height1;
+  font-size: $font-size2;
+  font-weight: $font-weight1;
+  color: $color-text2;
+  font-family: $font-family;
+
+  & div:last-child {
+    line-height: $line-height2;
+    font-size: $font-size3;
+    font-weight: $font-weight3;
+    color: $color-text1;
+  }
+}

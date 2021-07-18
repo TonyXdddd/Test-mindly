@@ -1,0 +1,51 @@
+@import '../../styles/variables';
+
+.card {
+  width: 333px;
+  height: 216px;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 0 24px 16px 24px;
+  font-family: $font-family;
+}
+
+.cardTitle {
+  color: $color-text1;
+  font-weight: $font-weight3;
+  font-size: $font-size1;
+  line-height: $line-height1;
+}
+
+.cardContent {
+  margin-top: 16px;
+  display: flex;
+}
+
+.specialistAvatar {
+  max-width: 144px;
+  max-height: 144px;
+  margin-right: 24px;
+  border-radius: 4px;
+  background-color: $color1;
+}
+
+.consultDurationInfo {
+  display: flex;
+  flex-direction: column;
+  max-width: 117px;
+  margin-top: 32px;
+  line-height: $line-height1;
+
+  & div:first-child {
+    font-size: $font-size2;
+    font-weight: $font-weight1;
+    color: $color-text2;
+    margin-bottom: 8px;
+  }
+
+  & div:last-child {
+    font-size: $font-size2;
+    font-weight: $font-weight2;
+    color: $color-text1;
+  }
+}
