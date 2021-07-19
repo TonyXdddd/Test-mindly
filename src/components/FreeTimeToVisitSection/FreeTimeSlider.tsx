@@ -57,26 +57,24 @@ export const FreeTimeSlider: React.FC<IChildSectionProps> = ({
 
   return (
     <>
-      {/*{ chosenVisitParams.chosenDate.value*/}
-         <IonSlides
-           options={sliderOption}
-           className={classNames(
-             styles.slider,
-             {[styles.sliderHidden]: !chosenVisitParams.chosenDate.value},
-           )}
-           class='ion-padding-horizontal ion-margin-top'
-         >
-            { freeTimeSlidesMap(chosenDate) }
-         </IonSlides>
-           <IonText
-             className={classNames(
-               styles.choseDateTipText,
-               {[styles.choseDateTipTextHidden]: chosenVisitParams.chosenDate.value},
-             )}
-           >
-             Пожалуйста, выберите удобную вам дату
-           </IonText>
-      {/*}*/}
+     <IonSlides
+       options={sliderOption}
+       className={classNames(
+         styles.slider,
+         {[styles.sliderHidden]: !chosenVisitParams.chosenDate.value},
+       )}
+       class='ion-padding-horizontal ion-margin-top'
+     >
+        { freeTimeSlidesMap(chosenDate) }
+     </IonSlides>
+       <IonText
+         className={classNames(
+           styles.choseDateTipText,
+           {[styles.choseDateTipTextHidden]: chosenVisitParams.chosenDate.value},
+         )}
+       >
+         Пожалуйста, выберите удобную вам дату
+       </IonText>
     </>
   )
 };
