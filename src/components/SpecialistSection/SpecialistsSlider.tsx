@@ -18,9 +18,9 @@ export const SpecialistsSlider: React.FC<IChildSectionProps> = ({
     [specialistsData]);
 
   const setActiveSlideIndex = (index: number) => {
-    //I left the event handling logic inside the sliders. I know that according to the directive, 
-    //it should be moved to the parent component responsible for the section.
-    //I am using two actions.
+    //Most likely, it would be more correct to move the eventlistener to the parent component. But since sliders are not reused anywhere, I left them here.
+    
+    //I am using two conditions actions.
     // 1 - for a 'memoized' specialist (pre-selected and saved in the firestore).
     // 2 - to clear all fields from another specialist.
     if (index === preSubmittedVisitParams?.chosenSpecialist.index) {
